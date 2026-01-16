@@ -8,7 +8,7 @@ import scala.util.Random
 import scalafx.scene.canvas.GraphicsContext
 import scalafx.scene.paint.Color
 import scalafx.Includes._
-import Util.Vector3D
+
 import scalafx.scene.media.MediaMarkerEvent
 import scalafx.util.Duration
 

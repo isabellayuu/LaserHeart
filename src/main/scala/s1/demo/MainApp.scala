@@ -68,7 +68,7 @@ object MainApp extends JFXApp3:
     * When an effect's [[next]] returns true, the following effect in the Buffer starts.
     */
   val demo: Buffer[Effect] =
-      Buffer(AuroraBorealis(), LaserHeart(), CyberWaves(), Credits())
+      Buffer(LaserHeart())
 
   // the volume level for the music, can be changed while already playing music
   audioPlayer.volume = 100.0
